@@ -285,6 +285,22 @@ ul li a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.sidebarprofile img {
+    margin-top: 20px;
+}
+.sidebarprofile a p {
+    margin-top: 5px;
+    text-align: center;
+    color: #9e7e81;
+}
+.sidebarprofile a:hover {
+    color: #853138;
+    text-decoration: none;
+}
+.sidebarprofile a p:hover {
+    color: #853138;
+    text-decoration: none;
+}
 #sidebar-btn{
     display: inline-block;
     vertical-align: middle;
