@@ -240,7 +240,7 @@ body {
 }
 #sidebar {
     background:grey;
-    background:#853138;
+   
     width: 335px;
     height: 100%;
     display: block;
@@ -249,7 +249,8 @@ body {
     right:-335px;
     transition: right 0.3s linear;
     text-align: center;
-     background: #2e4272;
+     background:#853138;
+    background: #2e4272;
 }
 #sidebar.visible {
     right:0px;
@@ -264,10 +265,25 @@ li {
 }
 ul li a {
     background: lightgray;
+    background:  #374f89;
     border-bottom: 1px solid #111;
+    border-bottom: 1px solid #2e4272;
     display: block;
     width 180px;
-    padding: 10px;
+    padding: 12px;
+    font-size:12pt;
+    color: white;
+}
+ul li a:hover {
+    background:#853138;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.socialmediaicons img {
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #sidebar-btn{
     display: inline-block;
@@ -286,7 +302,9 @@ ul li a {
     margin-bottom: 5px;
     display: block;
     border-radius: 10px;
+    background: #853138;
     background: #2e4272;
+    
 }
 #ul2{
     padding-right: 200px;
