@@ -160,27 +160,33 @@ input{
     position:fixed;
     margin: 0;
     font-family:"Arial", sans-serif;
-    height: 100%;
+   
     top:0;
-    z-index: 100; 
+    
     border-bottom: 5px solid #a12732;
    
     display:inline;
-    width:100%;
+    width:100vw;
     border-bottom: 0px;
+    z-index: 100;
             }
+#banner1.height {
+    height: 100%;
+}
 #innerbanner{
     padding-top: 5px;
     height:70px;
     background-color: #eeeeee;
     background-color: #F4E3E5;
+    z-index: 100;
+     
 }
 #banner2 {      
     position:fixed;
     margin: 0;
     font-family:"Arial";
     font-size: 16pt;
-    width:100%;
+    width:100vw;
     height: 70px;
     top:0;
     z-index: 100; 
@@ -241,19 +247,21 @@ body {
 #sidebar {
     background:grey;
    
-    width: 335px;
-    height: 100%;
+    width: 300px;
+    height: 10000px;
     display: block;
     position: absolute;
     top: 0;
-    right:-335px;
+    right:-300px;
     transition: right 0.3s linear;
     text-align: center;
      background:#853138;
     background: #2e4272;
+    z-index: inherit;
 }
 #sidebar.visible {
     right:0px;
+     z-index: inherit;
     
 }
 ul {
@@ -311,6 +319,7 @@ ul li a:hover {
     top:6px;
     position: absolute;
     left: -60px;
+    z-index: inherit;
 }
 #sidebar-btn span{
     height: 3px;
@@ -353,5 +362,16 @@ ul li a:hover {
 #logotop {
     display:inline;
     padding:0px;
+}
+.language {
+    background: white;
+    border: none;
+    font-weight: bold;
+    text-align:left;
+    width:100%;
+}
+#translation {
+    font-size: 22px;
+
 }
 
