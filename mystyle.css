@@ -194,11 +194,12 @@ input{
     border-bottom: 5px solid #a12732;
     padding-top: 5px;
     display:inline;
-    
      background-color: #eeeeee;
     border-bottom: 0px;
      background-color: #F4E3E5;       }
- 
+#banner2 a{
+    color:black;
+}
 #banner2 a:visited{
     color:black;
     text-decoration: none;
