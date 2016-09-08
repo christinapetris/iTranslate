@@ -45,8 +45,8 @@
                     <ul class="ul2">
                         <li class="li2" style="padding-right: 10%;"><a href="index.html"> Log out</a></li>
                     <li class="li2"><a href="search.html" > Search </a></li>
-                    <li class="li2"><a href="Profile.html" > Profile </a></li>
-                    <li class="li2"><a href="home.html" style="color:#9F2731"> Home </a></li>
+                    <li class="li2"><a href="Profile.html" style="color:#9F2731" > Profile </a></li>
+                    <li class="li2"><a href="home.html" > Home </a></li>
                     </ul>
                  </div>
             </div>
@@ -63,8 +63,8 @@
                     <ul class="ul2">
                        <li class="li2" style="padding-right: 5%; padding-left: 0px;"><a href="index.html"> Log out</a></li>
                     <li class="li2" style="padding-left: 0px;"><a href="search.html" > Search </a></li>
-                    <li class="li2" style="padding-left: 0px;"><a href="Profile.html" > Profile </a></li>
-                    <li class="li2" style="padding-left: 0px;"><a href="home.html" style="color:#9F2731"> Home </a></li>
+                    <li class="li2" style="padding-left: 0px;"><a href="Profile.html" style="color:#9F2731"> Profile </a></li>
+                    <li class="li2" style="padding-left: 0px;"><a href="home.html" > Home </a></li>
                     </ul>
                  </div>
                 </div>
@@ -83,8 +83,8 @@
                             <a href="Profile.html"><p>Christina Petris</p></a>
                             </div>
                             <ul>
-                                <li><a href="home.html" style="background:#853138;"> Home</a></li>
-                                <li><a href="Profile.html"> Profile</a></li>
+                                <li><a href="home.html" > Home</a></li>
+                                <li><a href="Profile.html" style="background:#853138;"> Profile</a></li>
                                 <li><a href="search.html"> Search</a></li>
                                 <li><a href="index.html"> Log out</a></li>
                             </ul>
@@ -114,63 +114,95 @@
                
             </div>
              <div class="col-lg-10 col-md-8 col-sm-10 col-xs-12">
-                <h1 style="text-align: center;">Home</h1>
-                 <p style="text-align: center;">Welcome to iTranslate! Shoose a sample image below to start translating or upload your own image.</p>
+                 <img src="img/profileicon.png" height="150px" style="margin-top: 2vh;">
+                <h1 style="text-align: center; margin-top: 1vh;">Christina Petris</h1>
+                 <p style="text-align: left;">Hey! I really want to speak heaps of languages one day. I am fluent in English and studied Japanese. Lets learn together!</p>
+                   <p style="font-weight: bold;"><b>My saved images:</b></p>
+
+          <input type="text" class="form-control" placeholder="Search saved images" id="searchbar">
+
+        <button type="submit" class="btn btn-default" id="searchbarbtn">Submit</button>
+<br><br><br>
+                 <div class="visible-lg">
                  <div class="row">
-                     <div class="visible-lg">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                         <a href="firework.html"><img src="img/images/fireworks.jpg" width="100%"></a>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
+                            <a href="firework.html">
+                                <img src="img/images/fireworks.jpg" width="100%">
+                                <h1 class="picdesc">花火</h1>
+                            </a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
+                            <a href="apple.html"><img src="img/images/apple.jpg" width="100%"><h1 class="picdesc">リンゴ</h1></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
+                            <a href="strawberry.html"><img src="img/images/strawberries.jpg" width="100%"><h1 class="picdesc">イチゴ</h1></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
+                         <a href="Mt-fuji.html"><img src="img/images/mt-fuji.jpg" width="100%"> <h1 class="picdesc">富士山</h1></a>
       </div>
-                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                          <img src="img/images/mt-fuji.jpg" width="100%">
-      </div>
-                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                          <img src="img/images/tiger.jpg" width="100%">
-      </div>
-                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                          <img src="img/images/upload.png" width="100%">
-      </div>
-                     </div>
-            </div>
+                        
+                    </div>
+                  <br>
+                     <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
+                            <a href=cruise.html><img src="img/images/cruise.jpg" width="100%"><h1 class="picdesc">クルーズ</h1></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
+                            <a href=horse.html><img src="img/images/horses.jpg" width="100%"><h1 class="picdesc">うま</h1></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
+                            <a href=sakura.html><img src="img/images/sakura.jpg" width="100%"><h1 class="picdesc">桜</h1></a>
+                        </div>
+                          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
+                            <a href=egg.html><img src="img/images/egg.jpg" width="100%"><h1 class="picdesc">
+卵</h1></a>
+                        </div>
+                    </div>
+                </div>
+
+                               <div class="hidden-lg">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
+                            <a href="firework.html"><img src="img/images/fireworks.jpg" width="100%"><h1 class="picdesc" id=smalltext>花火</h1></a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
+                            <a href="apple.html"><img src="img/images/apple.jpg" width="100%"><h1 class="picdesc" id=smalltext>リンゴ</h1></a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
+                            <a href="strawberry.html"><img src="img/images/strawberries.jpg" width="100%"><h1 class="picdesc" id=smalltext>イチゴ</h1></a>
+                        </div>
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
+                            <a href="Mt-fuji.html"><img src="img/images/mt-fuji.jpg" width="100%"><h1 class="picdesc" id=smalltext>富士山</h1></a>
+                        </div>
+                    </div>
+                    <br>
+                     <div class="row">
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
+                            <a href="cruise.html"><img src="img/images/cruise.jpg" width="100%"><h1 class="picdesc" id=smalltext>クルーズ</h1></a>
+                        </div>
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
+                            <a href="horse.html"><img src="img/images/horses.jpg" width="100%"><h1 class="picdesc" id=smalltext>うま</h1></a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
+                            <a href="sakura.html"><img src="img/images/sakura.jpg" width="100%"><h1 class="picdesc" id=smalltext>桜</h1></a>
+                        </div>
+                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
+                            <a href="egg.html"><img src="img/images/egg.jpg" width="100%"><h1 class="picdesc" id=smalltext>
+卵</h1></a>
+                        </div>
+                    </div>
+                </div>
                  <br>
-                 <div class="hidden-lg">
-                  <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0">
-                        <a href="firework.html"><img src="img/images/fireworks.jpg" width="100%"></a>
-      </div>
-                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0">
-                          <img src="img/images/mt-fuji.jpg" width="100%">
-      </div>
-                     </div>
-                     <br>
-                      <div class="row">
-                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0">
-                         <img src="img/images/tiger.jpg" width="100%">
-      </div>
-                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0">
-                          <img src="img/images/upload.png" width="100%">
-      </div>
+                <br><br>
             </div>
         </div>
-                 <br>
-                 <div class="hidden-xs">
-                    <input type="text" class="form-control" placeholder="Or paste an image url here">
-                  <p><a href="firework.html" class="btn btn-primary btn-block" role="button" id="login">Submit</a></p>
-                 </div>
-                 <div class="visible-xs">
-                     
-					   <a href="firework.html"><img src="img/picture.png" height="70px" style="margin-bottom:15px;">
-                           </a>
-                     
-                 </div>
-        </div>
-                 
-            </div>
-             <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
-                
-            </div>
-      
-        </div>
+    </div>
  
     </body>
 </html>

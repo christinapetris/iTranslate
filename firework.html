@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width">
+
 <meta charset="UTF-8">
 
 <!-- If IE use the latest rendering engine -->
@@ -22,14 +22,14 @@
 <!--https://www.youtube.com/watch?v=zPh0RbYiYGg-->
     <!-- navbar--> 
      <!-- largest view -->
-    <div class="visible-lg"> 
+       <div class="visible-lg"> 
         <div id="banner2">
             <a href="home.html"><img src="img/logo4.png" id="logotop"  alt="Logo" height="55px"  style="margin-left: 5%;"></a>
                 <ul class="ul2" >
                     <li class="li2" style="padding-right: 5%;"><a href="index.html"> Log out</a></li>
                     <li class="li2"><a href="search.html" > Search </a></li>
                     <li class="li2"><a href="Profile.html" > Profile </a></li>
-                    <li class="li2"><a href="home.html" style="color:#9F2731"> Home </a></li>
+                    <li class="li2"><a href="home.html"> Home </a></li>
                 </ul>
                
         </div>
@@ -44,7 +44,7 @@
                         <li class="li2" style="padding-right: 10%;"><a href="index.html"> Log out</a></li>
                     <li class="li2"><a href="search.html" > Search </a></li>
                     <li class="li2"><a href="Profile.html" > Profile </a></li>
-                    <li class="li2"><a href="home.html" style="color:#9F2731"> Home </a></li>
+                    <li class="li2"><a href="home.html"> Home </a></li>
                     </ul>
                  </div>
             </div>
@@ -62,7 +62,7 @@
                        <li class="li2" style="padding-right: 5%; padding-left: 0px;"><a href="index.html"> Log out</a></li>
                     <li class="li2" style="padding-left: 0px;"><a href="search.html" > Search </a></li>
                     <li class="li2" style="padding-left: 0px;"><a href="Profile.html" > Profile </a></li>
-                    <li class="li2" style="padding-left: 0px;"><a href="home.html" style="color:#9F2731"> Home </a></li>
+                    <li class="li2" style="padding-left: 0px;"><a href="home.html"> Home </a></li>
                     </ul>
                  </div>
                 </div>
@@ -73,7 +73,7 @@
             <div class="visible-xs">
                 <div id="banner1">
                     <div id="innerbanner">
-                        <a href="search.html"><img src="img/search.png" height="30px;" style="margin-top:13px; margin-left: 5%;"></a>
+                        <a href="search.html"><img src="img/search.png" height="30px;" class="search"></a>
                         <a href="home.html"><img src="img/logo4.png" id="logotop"  alt="Logo" height="55px" style="margin-left: 21%;"></a>
                         <div id="sidebar">
                             <div class="sidebarprofile">
@@ -81,7 +81,7 @@
                             <a href="Profile.html"><p>Christina Petris</p></a>
                             </div>
                             <ul>
-                                <li><a href="home.html" style="background:#853138;"> Home</a></li>
+                                <li><a href="home.html"> Home</a></li>
                                 <li><a href="Profile.html"> Profile</a></li>
                                 <li><a href="search.html"> Search</a></li>
                                 <li><a href="index.html"> Log out</a></li>
@@ -112,9 +112,9 @@
             </div>
              <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12">
                  <img src="img/images/fireworks.jpg" width="100%">
-                <h1 style="text-align: center;">花火</h1>
+                 <h1 style="text-align: center; margin-top:5px; margin-bottom:2px; color:#9F2731;">&nbsp;&nbsp;&nbsp;花火<img src="img/speakeron.png"  id="iconbig"></h1>
 
-                <div class="row" style="text-align:center; padding-top: 1vh;">
+                <div class="row" style="text-align:center; padding-top: 1px;">
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="translation">
 <!--http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_select_form-->
 <select name="Languagelist" form="languageform" class="language">
@@ -125,28 +125,16 @@
   <option value="Spanish">English</option>
 </select>
 
-<ul style="padding-top:5px; text-align:left;">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+<ul style="padding-top:3px; text-align:left;">
+  <li>花火 <img src="img/speakeron.png"  id="icon"></li>
+  <li>空 <img src="img/speakeroff.png"  id="icon"></li>
+  <li>黒 <img src="img/speakeroff.png" id="icon"></li>
 </ul>
 
-<p ><a class="btn btn-primary btn-block" role="button" id="login" id="btnsave"><span id="save">Save</span></a></p></div>
-
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-    <script type="text/javascript">
-
-$('btnsave').click(function(){
-    var $this = $(save);
-    $this.toggleClass('save');
-    if($save.hasClass('save')){
-        $save.text('Save');         
-    } else {
-        $save.text('Unsave');
-    }
-});
-  </script>
+<p ><a class="btn btn-primary btn-block" role="button" id="login" id="btnsave"><span class="save">Save</span></a></p></div>
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+</script>
 
 
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="translation">
@@ -159,13 +147,19 @@ $('btnsave').click(function(){
   <option value="Spanish">Spanish</option>
   <option value="Spanish">Japanese</option>
 </select>
-<ul style="padding-top:5px; text-align:left;">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+<ul style="padding-top:3px; text-align:left;">
+  <li>Fireworks</li>
+  <li>Sky</li>
+    <li>Black</li>
+    
 </ul>
 <p>
-<a href="home.html" class="btn btn-primary btn-block" role="button" id="login">New</a></p></div>
+<a href="home.html" class="btn btn-primary btn-block" role="button" id="login" onclick="goBack()">Back</a></p></div>
+                       <script>
+function goBack() {
+    window.history.back();
+}
+</script>
 </div>
 
                 </div>
@@ -174,7 +168,7 @@ $('btnsave').click(function(){
                </div>
                  </div>
   
-            </div>
+        
                  
     </body>
 </html>

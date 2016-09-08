@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 
 <!-- If IE use the latest rendering engine -->
@@ -8,22 +9,18 @@
 
 <!-- Set the page to the width of the device and set the zoon level -->
 <meta name="viewport" content="width = device-width, initial-scale = 1">
-<title>Home</title>
+<title>Strawberry-translation</title>
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="bootstrap.min.css">    
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">  
 
     <style>
-	.li2 a {
-		color:black;
-	}
 </style>
 
 </head>
 <body>
 <!--https://www.youtube.com/watch?v=zPh0RbYiYGg-->
     <!-- navbar--> 
-     <!-- largest view -->
     <div class="visible-lg"> 
         <div id="banner2">
             <a href="home.html"><img src="img/logo4.png" id="logotop"  alt="Logo" height="55px"  style="margin-left: 5%;"></a>
@@ -31,7 +28,7 @@
                     <li class="li2" style="padding-right: 5%;"><a href="index.html"> Log out</a></li>
                     <li class="li2"><a href="search.html" > Search </a></li>
                     <li class="li2"><a href="Profile.html" > Profile </a></li>
-                    <li class="li2"><a href="home.html" style="color:#9F2731"> Home </a></li>
+                    <li class="li2"><a href="home.html"> Home </a></li>
                 </ul>
                
         </div>
@@ -46,7 +43,7 @@
                         <li class="li2" style="padding-right: 10%;"><a href="index.html"> Log out</a></li>
                     <li class="li2"><a href="search.html" > Search </a></li>
                     <li class="li2"><a href="Profile.html" > Profile </a></li>
-                    <li class="li2"><a href="home.html" style="color:#9F2731"> Home </a></li>
+                    <li class="li2"><a href="home.html"> Home </a></li>
                     </ul>
                  </div>
             </div>
@@ -64,7 +61,7 @@
                        <li class="li2" style="padding-right: 5%; padding-left: 0px;"><a href="index.html"> Log out</a></li>
                     <li class="li2" style="padding-left: 0px;"><a href="search.html" > Search </a></li>
                     <li class="li2" style="padding-left: 0px;"><a href="Profile.html" > Profile </a></li>
-                    <li class="li2" style="padding-left: 0px;"><a href="home.html" style="color:#9F2731"> Home </a></li>
+                    <li class="li2" style="padding-left: 0px;"><a href="home.html"> Home </a></li>
                     </ul>
                  </div>
                 </div>
@@ -83,7 +80,7 @@
                             <a href="Profile.html"><p>Christina Petris</p></a>
                             </div>
                             <ul>
-                                <li><a href="home.html" style="background:#853138;"> Home</a></li>
+                                <li><a href="home.html"> Home</a></li>
                                 <li><a href="Profile.html"> Profile</a></li>
                                 <li><a href="search.html"> Search</a></li>
                                 <li><a href="index.html"> Log out</a></li>
@@ -102,78 +99,75 @@
         $(document).ready(function(){
                         $('#sidebar-btn').click(function(){
                             $('#sidebar').toggleClass('visible');
-                            $('#banner1').toggleClass('visible');
                             });
                         });
     </script>
         <!-- navbar finished-->
 
     <div class="container" style="margin-top:50px;">
-        <div class="row" style="text-align:center; padding-top: 6vh;">
-            <div class="col-lg-1 col-md-2 col-sm-1 col-xs-0">
+        <div class="row" style="text-align:center; padding-top: 5vh;">
+            <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
                
             </div>
-             <div class="col-lg-10 col-md-8 col-sm-10 col-xs-12">
-                <h1 style="text-align: center;">Home</h1>
-                 <p style="text-align: center;">Welcome to iTranslate! Choose a sample image below to start translating or upload your own image.</p>
-                 <div class="row">
-                     <div class="visible-lg">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
-                         <a href="firework.html"><img src="img/images/fireworks.jpg" width="100%"><h1 class="picdesc">花火</h1></a>
-      </div>
-                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
-                         <a href="Mt-fuji.html"><img src="img/images/mt-fuji.jpg" width="100%"> <h1 class="picdesc">富士山</h1></a>
-      </div>
-                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
-                         <a href="tiger.html"><img src="img/images/tiger.jpg" width="100%"> <h1 class="picdesc">虎</h1></a>
-      </div>
-                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id=pics>
-                          <a href="sakura.html"><img src="img/images/upload.png" width="100%"> <h1 class="picdesc"></h1></a>
-      </div>
-                     </div>
-            </div>
-                 <br>
-                 <div class="hidden-lg">
-                  <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
-                        <a href="firework.html"><img src="img/images/fireworks.jpg" width="100%"><h1 class="picdesc">花火</h1></a>
-      </div>
-                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
-                         <a href="Mt-fuji.html"> <img src="img/images/mt-fuji.jpg" width="100%"><h1 class="picdesc">富士山</h1></a>
-      </div>
-                     </div>
-                     <br>
-                      <div class="row">
-                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
-                         <a href="tiger.html"><img src="img/images/tiger.jpg" width="100%"> <h1 class="picdesc">虎</h1></a>
-      </div>
-                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-0" id=pics>
-                           <a href="sakura.html"><img src="img/images/upload.png" width="100%"> <h1 class="picdesc"></h1></a>
-      </div>
-            </div>
-        </div>
-                 <br>
-                 <div class="hidden-xs">
-                    <input type="text" class="form-control" placeholder="Or paste an image url here">
-                  <p><a href="firework.html" class="btn btn-primary btn-block" role="button" id="login">Submit</a></p>
+             <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12">
+                 <img src="img/images/strawberries.jpg" width="100%">
+                 <h1 style="text-align: center; margin-top:5px; margin-bottom:2px; color:#9F2731;">&nbsp;&nbsp;&nbsp;イチゴ<img src="img/speakeron.png"  id="iconbig"></h1>
+
+                <div class="row" style="text-align:center; padding-top: 1px;">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="translation">
+<!--http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_select_form-->
+<select name="Languagelist" form="languageform" class="language">
+  <option value="Japanese">Japanese</option>
+  <option value="Chinese">Chinese</option>
+  <option value="Korean">Korean</option>
+  <option value="Spanish">Spanish</option>
+  <option value="Spanish">English</option>
+</select>
+
+<ul style="padding-top:3px; text-align:left;">
+  <li>イチゴ <img src="img/speakeron.png"  id="icon"></li>
+  <li>果物 <img src="img/speakeroff.png"  id="icon"></li>
+  <li>赤 <img src="img/speakeroff.png" id="icon"></li>
+</ul>
+
+<p ><a class="btn btn-primary btn-block" role="button" id="login" id="btnsave"><span class="save">Save</span></a></p></div>
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+</script>
+
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="translation">
+
+
+<select name="Languagelist" form="languageform" class="language">
+  <option value="Japanese">English</option>
+  <option value="Chinese">Chinese</option>
+  <option value="Korean">Korean</option>
+  <option value="Spanish">Spanish</option>
+  <option value="Spanish">Japanese</option>
+</select>
+<ul style="padding-top:3px; text-align:left;">
+  <li>Strawberry</li>
+  <li>Fruit</li>
+    <li>Red</li>
+    
+</ul>
+<p>
+<a href="home.html" class="btn btn-primary btn-block" role="button" id="login" onclick="goBack()">Back</a></p></div>
+                       <script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</div>
+
+                </div>
                  </div>
-                 <div class="visible-xs">
-                     
-					   <a href="egg.html"><img src="img/picture.png" height="70px" style="margin-bottom:15px;">
-                           </a>
-                     
+                     <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
+               </div>
                  </div>
-        </div>
+  
+        
                  
-            </div>
-             <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
-                
-            </div>
-      
-        </div>
- 
     </body>
 </html>
-<!--
-<div>Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
--->
